@@ -1,0 +1,715 @@
+/***************************
+MOAA Landing Page Styles
+***************************/
+/*************
+Base Variables
+**************/
+/*****
+Colors
+******/
+/************************
+Reset some basic elements
+*************************/
+body,
+header,
+footer,
+section,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+figure,
+img,
+fieldset,
+input,
+select,
+textarea,
+hr {
+  margin: 0px;
+  padding: 0px;
+}
+header,
+footer,
+section {
+  display: block;
+}
+header,
+footer,
+section,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+li,
+a,
+figure,
+img,
+fieldset,
+input,
+select,
+textarea {
+  box-sizing: border-box;
+}
+/*****
+Mixins
+******/
+/************
+Basic styling
+*************/
+body {
+  background-color: #000000;
+}
+a {
+  outline: none;
+}
+img {
+  border: 0;
+}
+/************
+Common Styles
+*************/
+.title,
+.intro,
+.marquee,
+#page-wrap,
+.copywright,
+.hero-feature,
+.marquee-join,
+.header-section,
+.footer-divider,
+.hero-feature-join,
+.hero-section-join,
+.header-section-join {
+  width: 100%;
+}
+#page-wrap,
+.hero-section {
+  position: relative;
+}
+.marquee,
+.header-section {
+  position: absolute;
+}
+footer,
+.marquee,
+.marquee-join,
+.header-section,
+.cta-social-bar,
+.footer-link-bar,
+.footer-social-bar,
+.footer-content-wrap,
+.header-section-join {
+  display: flex;
+}
+.marquee,
+.header-section,
+.marquee-join {
+  z-index: 200;
+}
+.marquee,
+.marquee-join {
+  align-items: center;
+}
+.cta-social-bar,
+.footer-link-bar,
+.footer-social-bar,
+.footer-content-wrap {
+  flex-direction: row;
+}
+.cta-social-bar,
+.footer-link-bar,
+.footer-social-bar {
+  list-style: none;
+}
+.cta-social-bar .cta-social-icon img,
+.footer-social-bar .cta-social-icon img,
+.cta-social-bar .footer-social-icon img,
+.footer-social-bar .footer-social-icon img {
+  display: block;
+}
+.copywright,
+.footer-link-bar,
+.footer-link-wrap,
+.footer-content-wrap {
+  margin: 0px auto;
+}
+.copywright,
+.footer-link-wrap,
+.footer-content-wrap {
+  width: 70%;
+}
+/********************
+Header Section Styles
+*********************/
+.header-section,
+.header-section-join {
+  justify-content: flex-end;
+  padding-right: 5%;
+  padding-top: 3%;
+  max-height: 170px;
+  height: auto;
+  top: 0px;
+}
+.header-section .brand-logo,
+.header-section-join .brand-logo {
+  height: 128px;
+  width: 119px;
+}
+/********************
+Hero Section Styles
+*********************/
+.hero-section,
+.hero-section-join {
+  transition: box-shadow 1s linear;
+}
+.hero-section-join {
+  background: url("../images/features/primary-feature.jpg") no-repeat 0px 0px
+    #43201e;
+  background-size: cover;
+  position: fixed;
+  height: 100%;
+}
+.hero-feature {
+  max-height: 820px;
+  display: block;
+  height: auto;
+}
+.hero-feature-join {
+  max-height: 820px;
+  display: block;
+  height: 100%;
+}
+/********************
+Marquee Styles
+*********************/
+.marquee,
+.marquee-join {
+  flex-direction: column;
+}
+.marquee .title,
+.marquee-join .title,
+.marquee .intro,
+.marquee-join .intro,
+.marquee .prompt,
+.marquee-join .prompt,
+.marquee .tagline,
+.marquee-join .tagline {
+  text-align: center;
+}
+.marquee .title,
+.marquee-join .title {
+  font-family: "ITC Franklin Gothic LT W01DmCm";
+}
+.marquee .intro,
+.marquee-join .intro {
+  font-family: "ITC Franklin Gothic LT W01 Bk";
+}
+.marquee .prompt,
+.marquee-join .prompt,
+.marquee .tagline,
+.marquee-join .tagline {
+  font-family: "ITC Franklin Gothic LT W01MdCn";
+}
+.marquee .intro,
+.marquee-join .intro {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 27px;
+  text-transform: normal;
+  color: #ffffff;
+  margin-bottom: 25px;
+}
+.marquee .tagline,
+.marquee-join .tagline {
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 38px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.025em;
+  margin-bottom: 13px;
+}
+.marquee .prompt,
+.marquee-join .prompt {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 21px;
+  text-transform: normal;
+  color: #ffffff;
+  margin-bottom: 20px;
+}
+.marquee {
+  bottom: 18px;
+}
+.marquee .title,
+.marquee .intro {
+  max-width: 60%;
+}
+.marquee .intro {
+  text-shadow: 1px 1px 12px #000;
+}
+.marquee .title {
+  font-size: 130px;
+  font-weight: 400;
+  line-height: 102px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 0.009em;
+  margin-bottom: 21px;
+}
+.marquee-join {
+  margin-top: 78px;
+}
+.marquee-join .title {
+  font-size: 91px;
+  font-weight: 400;
+  line-height: 86px;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: 1px;
+  max-width: 85%;
+}
+/****************
+CTA Social Styles
+*****************/
+.cta-social-bar {
+  max-width: 333px;
+}
+.cta-social-bar .cta-social-icon {
+  padding-left: 11px;
+}
+.cta-social-bar .cta-social-icon:first-child {
+  padding-left: 0px;
+}
+.cta-social-bar .cta-social-icon a {
+  background-color: #cf2129;
+  display: block;
+  height: 74px;
+  width: 74px;
+}
+.email {
+  background: url("../images/icons/mail-cta-icon.svg") no-repeat 0px 0px
+    transparent;
+}
+.facebook {
+  background: url("../images/icons/facebook-cta-icon.svg") no-repeat 0px 0px
+    transparent;
+}
+.twitter {
+  background: url("../images/icons/twitter-cta-icon.svg") no-repeat 0px 0px
+    transparent;
+}
+.linkedin {
+  background: url("../images/icons/linkedin-cta-icon.svg") no-repeat 0px 0px
+    transparent;
+}
+/************
+Footer Styles
+*************/
+footer,
+.footer-link-bar,
+.footer-content-wrap {
+  justify-content: center;
+}
+footer {
+  background-color: #000000;
+  padding: 40px 0px 40px;
+  flex-direction: column;
+}
+footer .copywright,
+footer .footer-content-wrap,
+footer .footer-social-heading {
+  font-family: "ITC Franklin Gothic LT W01 Bk";
+}
+footer .footer-content-wrap {
+  max-width: 1188px;
+}
+footer .footer-content-wrap > div {
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 20px;
+  text-transform: normal;
+  color: #ffffff;
+  align-self: flex-start;
+  margin-bottom: 40px;
+}
+footer .footer-content-wrap > div,
+footer .footer-content-wrap > div a {
+  text-decoration: none;
+  color: #ffffff;
+}
+footer .footer-content-wrap .footer-left {
+  padding-right: 78px;
+}
+footer .footer-content-wrap .footer-center-left {
+  padding-right: 32px;
+}
+footer .footer-content-wrap .footer-left {
+  width: 372px;
+}
+footer .footer-content-wrap .footer-center-left {
+  width: 321px;
+}
+footer .footer-content-wrap .footer-center-right {
+  width: 326px;
+}
+footer .footer-content-wrap .footer-right {
+  width: 168px;
+}
+.footer-social-heading {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: normal;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.footer-social-bar .footer-social-icon {
+  padding-left: 18px;
+}
+.footer-social-bar .footer-social-icon:first-child {
+  padding-left: 0px;
+}
+.footer-social-bar .footer-social-icon img {
+  height: 24px;
+  width: 26px;
+}
+.footer-link-wrap {
+  margin-bottom: 20px;
+}
+.footer-link-bar .footer-link:nth-child(even) {
+  border-left: solid 2px #ffffff;
+  border-right: solid 2px #ffffff;
+  margin: 0px 11px 0px;
+  padding: 0px 11px 0px;
+}
+.footer-link-bar .footer-link a {
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 18px;
+  text-transform: uppercase;
+  color: #ffffff;
+  font-family: "ITC Franklin Gothic LT W01DmCm";
+  text-decoration: none;
+}
+.footer-divider {
+  margin: 0px auto;
+  max-width: 83%;
+}
+.copywright {
+  font-size: 15px;
+  font-weight: normal;
+  line-height: 17px;
+  text-transform: normal;
+  color: #949494;
+  text-align: center;
+  margin-top: 18px;
+}
+/****************
+Responsive Styles
+*****************/
+@media screen and (min-width: 1600px) {
+  footer .footer-content-wrap .footer-left {
+    padding-right: 90px;
+  }
+  footer .footer-content-wrap .footer-center-left {
+    width: 281px;
+  }
+  footer .footer-content-wrap .footer-center-right {
+    width: 246px;
+  }
+  .marquee .title {
+    line-height: 120px;
+    font-size: 150px;
+  }
+  footer .footer-content-wrap {
+    max-width: 1065px;
+  }
+  .marquee .intro {
+    max-width: 48%;
+  }
+}
+@media screen and (max-width: 1350px) {
+  .marquee .title {
+    line-height: 82px;
+    font-size: 95px;
+    max-width: 55%;
+  }
+  .marquee-join .title {
+    line-height: 74px;
+    font-size: 78px;
+  }
+  .marquee .title br {
+    display: none;
+  }
+  .marquee .intro {
+    max-width: 68%;
+  }
+}
+@media screen and (max-width: 1280px) {
+  .marquee-join {
+    margin-top: 30px;
+  }
+  .header-section .brand-logo,
+  .header-section-join .brand-logo {
+    height: 104px;
+    width: 98px;
+  }
+  .marquee {
+    bottom: 50px;
+  }
+  .marquee .intro {
+    line-height: 27px;
+    font-size: 22px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .hero-section {
+    background: url("../images/features/primary-feature.jpg") no-repeat 0px 0px
+      transparent;
+    background-size: cover;
+  }
+  .header-section-join {
+    justify-content: center;
+    padding-right: 0px;
+    padding-top: 32px;
+  }
+  .marquee,
+  .marquee-join,
+  .header-section {
+    position: static;
+  }
+  .marquee,
+  .header-section {
+    bottom: auto;
+  }
+  .marquee {
+    padding-bottom: 35px;
+    margin-top: -70px;
+  }
+  .marquee-join {
+    margin-top: 70px;
+  }
+  .marquee .intro {
+    line-height: 27px;
+    font-size: 22px;
+  }
+  .hero-feature,
+  .hero-feature-join {
+    display: none;
+  }
+}
+@media screen and (max-width: 920px) {
+  .marquee-join {
+    margin-top: 35px;
+  }
+  footer .footer-content-wrap .footer-left,
+  footer .footer-content-wrap .footer-right,
+  footer .footer-content-wrap .footer-center-left,
+  footer .footer-content-wrap .footer-center-right {
+    text-align: left;
+    padding: 0px;
+    width: 100%;
+  }
+  footer .footer-content-wrap .footer-left,
+  footer .footer-content-wrap .footer-right,
+  footer .footer-content-wrap .footer-center-right {
+    margin-bottom: 20px;
+  }
+  .footer-content-wrap {
+    flex-direction: column;
+  }
+  .footer-link-wrap,
+  footer .footer-content-wrap .footer-center-left {
+    margin-bottom: 6px;
+  }
+  footer .footer-link-wrap .footer-link-bar,
+  footer .footer-link-wrap .footer-social-bar {
+    justify-content: flex-start;
+  }
+  footer .footer-link-wrap .footer-link-bar {
+    margin: 0px 0px 10px;
+  }
+  .copywright,
+  .footer-link-wrap,
+  .footer-content-wrap {
+    width: 45%;
+  }
+  .copywright {
+    text-align: left;
+  }
+}
+@media screen and (max-width: 765px) {
+  .header-section .brand-logo,
+  .header-section-join .brand-logo {
+    height: 82px;
+    width: 78px;
+  }
+  .marquee {
+    margin-top: -60px;
+  }
+  .marquee .title,
+  .marquee .intro,
+  .marquee .prompt,
+  .marquee .tagline {
+    max-width: 82%;
+  }
+  .marquee .title {
+    line-height: 69px;
+    font-size: 85px;
+  }
+  .marquee-join .title {
+    line-height: 57px;
+    font-size: 62px;
+  }
+  .marquee .intro {
+    line-height: 25px;
+    font-size: 20px;
+  }
+  .marquee .title br {
+    display: block;
+  }
+  .marquee .tagline {
+    line-height: 32px;
+    font-size: 28px;
+  }
+  .cta-social-bar {
+    max-width: none;
+  }
+  .cta-social-bar .cta-social-icon a {
+    height: 50px;
+    width: 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .header-section {
+    justify-content: center;
+    padding-right: 0px;
+    padding-top: 32px;
+  }
+  .hero-section,
+  .hero-section-join {
+    box-shadow: 0px 0px 360px 0px #000 inset;
+  }
+  .hero-section {
+    background: url("../images/features/primary-feature-mobile.jpg") no-repeat
+      0px 0px transparent;
+    background-size: cover;
+  }
+  .hero-section-join {
+    background: url("../images/features/primary-feature-mobile.jpg") no-repeat
+      0px 0px transparent;
+  }
+  .marquee {
+    padding-bottom: 35px;
+    margin-top: 22px;
+  }
+  .marquee .title {
+    line-height: 67px;
+    font-size: 78px;
+  }
+  .marquee .intro {
+    line-height: 25px;
+    font-size: 19px;
+  }
+  .marquee .tagline {
+    line-height: 28px;
+    font-size: 25px;
+  }
+  .copywright,
+  .footer-link-wrap,
+  .footer-content-wrap {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .marquee {
+    padding-bottom: 35px;
+  }
+  .copywright,
+  .copywright a,
+  footer .footer-content-wrap > div {
+    font-size: 14px;
+  }
+  .copywright,
+  .copywright a {
+    line-height: 16px;
+  }
+  footer .footer-content-wrap > div {
+    line-height: 18px;
+  }
+}
+@media screen and (max-width: 465px) {
+  .marquee .tagline {
+    margin-bottom: 8px;
+    line-height: 26px;
+    font-size: 24px;
+  }
+  .copywright,
+  .footer-link-wrap,
+  .footer-content-wrap {
+    width: 80%;
+  }
+  .copywright {
+    line-height: 12px;
+    font-size: 10px;
+  }
+}
+@media screen and (max-width: 380px) {
+  .cta-social-bar .cta-social-icon a {
+    height: 45px;
+    width: 45px;
+  }
+  footer .footer-content-wrap > div {
+    line-height: 15px;
+    font-size: 12px;
+  }
+  .footer-social-heading {
+    line-height: 16px;
+    font-size: 13px;
+  }
+  .footer-link-bar .footer-link,
+  .footer-link-bar .footer-link a {
+    line-height: 15px;
+    font-size: 13px;
+  }
+  .footer-link-wrap {
+    margin-bottom: 10px;
+  }
+  .copywright {
+    margin-top: 10px;
+  }
+}
+@media screen and (max-width: 365px) {
+  .header-section .brand-logo,
+  .header-section-join .brand-logo {
+    height: 69px;
+    width: 65px;
+  }
+  .marquee .title,
+  .marquee-join .title {
+    line-height: 48px;
+    font-size: 50px;
+  }
+  .marquee .intro {
+    font-size: 17px;
+  }
+}
+@media screen and (max-width: 320px) {
+  .cta-social-bar .cta-social-icon a {
+    height: 33px;
+    width: 35px;
+  }
+}

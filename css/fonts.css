@@ -1,0 +1,49 @@
+@import url("//fast.fonts.net/t/1.css?apiType=css&projectid=0ff7f69a-469c-4cbd-a3cb-92132f1f1f14");
+
+@font-face {
+  font-family: "ITC Franklin Gothic LT W01DmCn";
+  src: url("../fonts/7d847ac4-ab65-4987-a435-e2fe10639423.eot?#iefix");
+  src: url("../fonts/7d847ac4-ab65-4987-a435-e2fe10639423.eot?#iefix")
+      format("eot"),
+    url("../fonts/910aea08-532e-437c-8552-b8e21e43a845.woff2") format("woff2"),
+    url("../fonts/cad8e11d-4e16-4cae-b102-c70567202fca.woff") format("woff"),
+    url("../fonts/7f05091c-f0c1-46c9-8e19-b0d7144433a4.ttf") format("truetype"),
+    url("../fonts/6abb3a3f-5b40-4a5d-8803-df6caf6a0f48.svg#6abb3a3f-5b40-4a5d-8803-df6caf6a0f48")
+      format("svg");
+}
+
+@font-face {
+  font-family: "ITC Franklin Gothic LT W01MdCn";
+  src: url("../fonts/f5060fb0-640b-49c7-91f6-6cfb8107b63f.eot?#iefix");
+  src: url("../fonts/f5060fb0-640b-49c7-91f6-6cfb8107b63f.eot?#iefix")
+      format("eot"),
+    url("../fonts/dea9866d-74ee-4301-8435-549191bd27ae.woff2") format("woff2"),
+    url("../fonts/317d0bb8-b9d0-46d8-bfdc-4c2241548da5.woff") format("woff"),
+    url("../fonts/cb734014-2971-43de-957a-82059d039c14.ttf") format("truetype"),
+    url("../fonts/46cc52a6-5c66-48a6-a306-5a5408752403.svg#46cc52a6-5c66-48a6-a306-5a5408752403")
+      format("svg");
+}
+
+@font-face {
+  font-family: "ITC Franklin Gothic LT W01 Bk";
+  src: url("../fonts/00faf685-e292-40f6-8318-fce19d0576b1.eot?#iefix");
+  src: url("../fonts/00faf685-e292-40f6-8318-fce19d0576b1.eot?#iefix")
+      format("eot"),
+    url("../fonts/35d6841f-a247-4989-95f3-b023bab7c876.woff2") format("woff2"),
+    url("../fonts/e0c48fbf-6e3e-4d4a-8443-7905cf3d47f4.woff") format("woff"),
+    url("../fonts/52a8cfe0-c0a3-4424-80ae-baf160636666.ttf") format("truetype"),
+    url("../fonts/df864b94-3d8a-4e16-9ec8-ed159a688ca5.svg#df864b94-3d8a-4e16-9ec8-ed159a688ca5")
+      format("svg");
+}
+
+@font-face {
+  font-family: "ITC Franklin Gothic LT W01DmCm";
+  src: url("../fonts/15a06fc9-63fc-497b-bc6f-d01d06a83aea.eot?#iefix");
+  src: url("../fonts/15a06fc9-63fc-497b-bc6f-d01d06a83aea.eot?#iefix")
+      format("eot"),
+    url("../fonts/7089f9c8-406a-4162-b5c7-3cffa5d6d3d8.woff2") format("woff2"),
+    url("../fonts/42d7564d-dbd2-4098-b346-18b43c615bb2.woff") format("woff"),
+    url("../fonts/52171dea-72ee-43a9-b4c9-5b10196032eb.ttf") format("truetype"),
+    url("../fonts/012dd83b-291a-4fc6-875c-05c63d0f9d1f.svg#012dd83b-291a-4fc6-875c-05c63d0f9d1f")
+      format("svg");
+}
